@@ -1,0 +1,90 @@
+@import url('./layout.css');
+
+header h1 {
+    text-align: center;
+    font-size: 50px;
+    padding: 0.5em;
+}
+
+body>header>nav>{
+    width: auto;
+}
+body > nav ul {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+body > nav li {
+    padding: 1em;
+}
+
+body > nav a {
+    text-decoration: none;
+    color: #f1c40f;
+}
+
+body > nav a:hover {
+    color: #c0392b;
+}
+
+body nav ol {
+    display: flex;
+}
+
+
+header ol li a img {
+    width: 100%;
+}
+
+header ol li a img{
+    width: 50px;
+    height: 50px;
+}
+
+header ol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+
+}
+
+.content {
+    border-top: 1px solid black;
+    
+}
+
+.content{
+    padding: 1em;
+}
+
+#moveLeft{
+    float: left;
+    margin: 1em;
+}
+
+.content p{
+    line-height: 1.5;
+}
+
+#aside-option-3{
+    border: 1px solid #000;
+    border-radius: 1em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+#aside-option-3 cite{
+    background: grey;
+    color: #fff;
+    padding: 1em;
+    
+}
+
+#aside-option-3 cite a{
+    color: #fff;
+}
+
